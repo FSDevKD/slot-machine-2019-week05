@@ -30,7 +30,7 @@ function spin() {
   // Check for a win
   if (index1 === index2 && index2 === index3) {
     result = "You won!";
-    total += bet * 5;
+    total += bet * 20;
   } else {
     result = "You lost!";
     total -= bet;
